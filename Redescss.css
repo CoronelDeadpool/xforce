@@ -1,0 +1,68 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background: #4F4BB5;
+	min-width: 1280px;
+    min-height: 737px;
+    margin: 0 auto;
+    max-width: 1280px;
+  
+  /* make it look decent enough */
+  
+  color: #cdcdcd;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+.p{
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    margin: -38px 0px 0px 69px;
+}
+.sidenav {
+  width 53px;
+  height: 737px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #25298d;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.sidenav a {
+  padding: 7px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.main {
+  margin-left: 200px; 
+  font-size: 20px; 
+  padding: 0px 10px;
+}
+.sidenav a img {
+    font-size: 29px;
+}
+
+.Titulo{
+    
+    width: 1294px;
+	margin: -1px 0px 0px 20px;
+    
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 6px;}
+  .sidenav a {font-size: 18px;}
+}
